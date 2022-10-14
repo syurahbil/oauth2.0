@@ -1,0 +1,52 @@
+[
+    {
+        "name": "prodigyview/prodigyview",
+        "version": "0.9.1",
+        "version_normalized": "0.9.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ProdigyView-Toolkit/prodigyview.git",
+            "reference": "aa7e4adfbc70656c3ffb6f46b378b5dab3b5348a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ProdigyView-Toolkit/prodigyview/zipball/aa7e4adfbc70656c3ffb6f46b378b5dab3b5348a",
+            "reference": "aa7e4adfbc70656c3ffb6f46b378b5dab3b5348a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "^6.3",
+            "phpunit/php-code-coverage": "^6.1",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2019-01-02T04:56:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "prodigyview\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Devin Dixon",
+                "email": "ddixon@prodigyview.com",
+                "homepage": "http://www.prodigyview.com",
+                "role": "Entrepreneur & Developer"
+            }
+        ],
+        "description": "Complete PHP Toolkit",
+        "homepage": "https://github.com/ProdigyView-Toolkit/prodigyview",
+        "keywords": [
+            "mvc",
+            "php"
+        ]
+    }
+]
