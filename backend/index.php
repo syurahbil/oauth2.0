@@ -17,9 +17,9 @@ require __DIR__ . '/vendor/encrypt.php';
 // configuration for Oauth2 DB
 $config['displayErrorDetails'] = true;
 $config['odb']['host'] = "localhost";
-$config['odb']['user'] = "syurahbil";
-$config['odb']['pass'] = "syurahbil123";
-$config['odb']['dbname'] = "oauth2";
+$config['odb']['user'] = "someone";
+$config['odb']['pass'] = "someone123";
+$config['odb']['dbname'] = "db_oauth2";
 
 $app = new Slim\App(["settings" => $config]);
 
