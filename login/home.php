@@ -70,8 +70,6 @@ if (isset($_SESSION['token']) && isset($_SESSION['userid']))
 	$token = $_SESSION['token'];
 	$userid = $_SESSION['userid'];
 
-	
-	//$host_validate_token = "202.157.189.177:8686/validateToken";
 	$host_validate_token = "localhost:8686/validateToken";
 			$curl = new Curl($host_validate_token);
 			$curl-> sendToken('get', array(
@@ -91,7 +89,6 @@ if (isset($_SESSION['token']) && isset($_SESSION['userid']))
 		$status = $result->status;
 		if ($status == "00")
 		{
-			//$host_get_token = "202.157.189.177:8686/getUser";
 			$host_get_token = "localhost:8686/getUser";
 			$curl = new Curl($host_get_token);
 			$curl-> sendToken('post', array(
