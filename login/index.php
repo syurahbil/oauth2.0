@@ -83,7 +83,6 @@ if (isset($_REQUEST['submit'])) //here give the name of your button on which you
         if(preg_match($username_pattern, $username)){
 			
 		try{ // Check connection before executing the SQL query 
-			 // require_once("dist/panel.php");
 		
 		$host_get_token = "localhost:8686/generateToken";
         $curl = new Curl($host_get_token);
